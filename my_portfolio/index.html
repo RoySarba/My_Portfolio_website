@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarbajit Roy portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e79cd301a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/portfolio1.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1>
+                    Hi everyone, this is <span>SARBAJIT ROY</span> <br>from West Bengal, India.
+                </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/direction.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                    <p>
+                        Hello Everyone, My name is Sarbajit Roy from Raiganj, Uttar Dinajpur, West Bengal.<br>
+                        Currently,I am persuing my MCA post graduation from Narula Institute of Technology.<br>
+                        And I graduated in BSc Computer Science from Acharya Prafulla Chandra College , West BEngal State University.<br>
+                        I want to advance my career in AI-ML , Generative AI , DevOps , DBMS and Data Analysis<br>
+
+                        Apart from coding, some other activities that I love to <br>
+                        1) Listen Music
+                        2) Learn New Technology
+                        3) Internet and News Surfing
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        
+                            
+                        
+                        <p class="tab-links" onclick="opentab('education')">
+                            Education
+                        </p>
+                    </div>
+                    <div class=" tab-contents active-tab" id="skills">
+                        <li>
+                            <h3>HTML</h3>
+                            <span class="bar"><span class="html"></span></span>
+                        </li>
+                        <li>
+                            <h3>CSS</h3>
+                            <span class="bar"><span class="css"></span></span>
+                        </li>
+                        <li>
+                            <h3>JavaScript</h3>
+                            <span class="bar"><span class="javascript"></span></span>
+                        </li>
+                        <li>
+                            <h3>C</h3>
+                            <span class="bar"><span class="c"></span></span>
+                        </li>
+                        <li>
+                            <h3>Python</h3>
+                            <span class="bar"><span class="cpp"></span></span>
+                        </li>
+                        <li>
+                            <h3>DBMS</h3>
+                            <span class="bar"><span class="java"></span></span>
+                        </li>
+                        <li>
+                            <h3>Data Analysis</h3>
+                            <span class="bar"><span class="dbms"></span></span>
+                        </li>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span> 2023 - 2025</span><br>Currently persuing MCA
+                                 from Narula Institute of Technology.
+                            </li>
+                            <li>
+                                <span> 2020 - 2023</span><br>Completed my graduation in BSc Computer Science from Acharya Prafulla Chandra College under WBSU.
+                            </li>
+                            <li>
+                                <span> 2018 - 2020</span><br>Completed 12(H.S.) from Sudansanpur Dwarika Prasad Uchha Vidyachakra under WBCHSE.
+                            </li>
+                            <li>
+                                <span> 2012 - 2018</span><br>Completed 10th from Sudansanpur Dwarika Prasad Uchha Vidyachakra under WBBSE.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                My Projects
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/temp_convert.jpg">
+                    <div class="layer">
+                        <h3>Temperature Converter<br>
+                            (Celsius<->Fahrenheit)</h3>
+                        <p>Here in this project we can convert temperature between Celsius and Fahrenheit
+                            In developing the project I use HTML,CSS AND JavaScrpt.</p>
+                        <a href=""
+                            target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio2.jpg">
+                    <div class="layer">
+                        <h3>A basic Self Portfolio website</h3>
+                        <p>This is a basic portfolio website made with HTML, CSS and basic JavaScript.</p>
+                        <a href="" target="blank"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/food_delivery.png">
+                    <div class="layer">
+                        <h3>Online Food Order and Delivery website</h3>
+                        <p>This is a online food order and delivery website with various functionality
+                            It is made with HTML,CSS and JavaScript
+                            </p>
+                        <a href="" target="_blank"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/4thproj.png">
+                    <div class="layer">
+                        <h3>Mini Projects</h3>
+                        <p>Here you can see some mini projects made with HTML, CSS and JavaScript.</p>
+                        <a href=""
+                            target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>sarbajitroy2002babai@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+919531624320</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sarbajit.roy.739?mibextid=ZbWKwL" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/myself_sarba/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sarbajit-roy-2687a9310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="2024_ArnabSaha_resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form method="POST" name="google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" name="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
+    <script>
+        
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => alert("Thanks for contacting me..! I will contact you soon..."))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
